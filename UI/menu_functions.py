@@ -14,7 +14,7 @@ def home_menu():
     Print.print_blank_line()
     Print.print_two_option("Search (3)", "Filter (4)")
     Print.print_blank_line()
-    Print.print_one_button("Raports (5)")
+    Print.print_one_button("Reports (5)")
     Print.print_blank_line()
     Print.print_buttons("QUIT (6)", "UNDO (7)")
     Print.print_blank_line()
@@ -496,11 +496,11 @@ def total_amount_apart(apartments, utilities):
             break
 
 
-def raports_menu():
+def reports_menu():
     Func.clear()
     Print.print_border()
     Print.print_blank_line()
-    Print.print_centered_text("Raports Menu")
+    Print.print_centered_text("Reports Menu")
     Print.print_blank_line()
     Print.print_one_button("Print total sum of a specific type (1)")
     Print.print_blank_line()
