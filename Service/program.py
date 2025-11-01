@@ -32,7 +32,7 @@ def home_option(apartments, utilities):
         elif option == 3:
             filter_option(apartments, utilities)
         elif option == 4:
-            raports_option(apartments, utilities)
+            reports_option(apartments, utilities)
         elif option == 5:
             break
         elif option == 6:
@@ -141,9 +141,9 @@ def filter_option(apartments, utilities):
             options[option](apartments, utilities)
 
 
-def raports_option(apartments, utilities):
+def reports_option(apartments, utilities):
     """
-    This function print raports menu
+    This function print reports menu
     Args:
         apartments:
         utilities:
@@ -154,7 +154,7 @@ def raports_option(apartments, utilities):
     options = [Menu.total_amount_type, Menu.sorted_by_type, Menu.total_amount_apart]
     while True:
         Func.clear()
-        Menu.raports_menu()
+        Menu.reports_menu()
         option = Input.input_option(1, 5) - 1
         if option == 3:
             break
