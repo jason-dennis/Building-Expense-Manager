@@ -114,7 +114,7 @@ def test_undo():
 
     Add.set_expenses(apartments, 3, "utilities", "gas", 34)
     Add.set_expenses(apartments, 3, "utilities", "electricity", 34)
-    Delete.delete_all_expenses(apartments, 1, 3)
+    Delete.delete_all_expenses(apartments, utilities, 1, 3)
 
     Undo.undo(apartments, utilities)
 
