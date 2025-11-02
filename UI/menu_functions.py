@@ -421,6 +421,7 @@ def filter_by_sum(apartments, utilities):
     need_input = ["Add amount: "]
     need = ["Add amount:"]
     [amount] = input_expenses(need, need_input)
+    amount = int(amount)
     filtered_apart = Filter.filter_by_amount(apartments, amount)
     numbers = []
     for index in range(0, 20):
